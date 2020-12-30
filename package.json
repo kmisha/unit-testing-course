@@ -1,0 +1,18 @@
+{
+  "name": "unit-tests",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": ["mocha", "test"],
+  "author": "Mikhail Kolesnikov <dadyaaya@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^8.2.1"
+  }
+}
