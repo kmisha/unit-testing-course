@@ -5,7 +5,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "nyc npm test"
   },
   "keywords": [
     "mocha",
@@ -17,6 +18,7 @@
     "chai": "^4.2.0",
     "eslint": "^7.16.0",
     "eslint-config-google": "^0.14.0",
-    "mocha": "^8.2.1"
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0"
   }
 }
