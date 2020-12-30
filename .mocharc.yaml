@@ -1,0 +1,2 @@
+spec: 'lib/**/*.spec.js'
+repoter: 'spec'
